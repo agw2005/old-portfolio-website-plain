@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="styles.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"/>
+        <script src="https://kit.fontawesome.com/f12dd6ec01.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/placeholder1.png" alt="placeholder1"/>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!--Introduction-->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Danial</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Lorem Ipsum</p>
+            <img src="img/placeholder2.jpg" alt="placeholder2" class="intro__img"/>
+        </section>
+        
+        <!--My Service-->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac tortor vel tellus vestibulum condimentum a eget urna. Nulla ultrices tortor vitae odio pellentesque, in feugiat justo accumsan.</p>
+                </div> <!--//Service-->
+                
+                <div class="service">
+                    <h3>Civitas UNNES</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac tortor vel tellus vestibulum condimentum a eget urna. Nulla ultrices tortor vitae odio pellentesque, in feugiat justo accumsan.</p>
+                </div> <!--//Service-->
+                
+                <div class="service">
+                    <h3>Text</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac tortor vel tellus vestibulum condimentum a eget urna. Nulla ultrices tortor vitae odio pellentesque, in feugiat justo accumsan.</p>
+                </div> <!--//Service-->
+            </div> <!--//Services-->
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        <!--About me-->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Lorem Ipsum Dolor Sit Amet</p>
+            
+            <div class="about-me__body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <img src="img/placeholder3.jpeg" alt="placeholder3" class="about-me__img"/>
+        </section>
+        
+        <!--My Work-->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My Work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 1 -->
+                <a href="https://github.com/agw2005/biayaHotel" target="_blank" class="portfolio__item">
+                    <img src="img/placeholder4.png" alt="placeholder4" class="portfolio__img"/>
+                </a>
+                
+                <!-- Portfolio item 2 -->
+                <a href="https://github.com/agw2005/Rumah" target="_blank" class="portfolio__item">
+                    <img src="img/placeholder5.png" alt="placeholder5" class="portfolio__img"/>
+                </a>
+                
+                <!-- Portfolio item 3 -->
+                <a href="https://github.com/agw2005/simpleCalculator" target="_blank" class="portfolio__item">
+                    <img src="img/placeholder6.png" alt="placeholder6" class="portfolio__img"/>
+                </a>
+                
+                <!-- Portfolio item 4 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/placeholder7.png" alt="placeholder7" class="portfolio__img"/>
+                </a>
+                
+                <!-- Portfolio item 5 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/placeholder8.png" alt="placeholder8" class="portfolio__img"/>
+                </a>
+                
+                <!-- Portfolio item 6 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/placeholder9.png" alt="placeholder9" class="portfolio__img"/>
+                </a>
+                
+            </div>
+        </section>
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:danial.agw2005@gmail.com" class="footer__link">danial.agw2005@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/agw2005" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/danial-walangadi-b1a69b243/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="#"><i class="fa-brands fa-discord"></i></a>
+                </li>
+            </ul>
+        </footer>
+        <script src="index.js"></script>
+    </body>
+</html>
